@@ -73,7 +73,6 @@ def de_cyrillic_low(char_):
 def key():
     for i in range(0, 26):
         choice_3 == i
-        if
 
 
 if choice_1 == '1':
@@ -108,8 +107,8 @@ if choice_1 == '2':
                     new_text += de_latin_low(text_cesar[i])
                 else:
                     new_text += text_cesar[i]
-        elif choice_3 == '':
-            for i in range(1, 26):
+        # elif choice_3 == '':
+        #     for i in range(1, 26):
 
 
     elif choice_2.lower() == 'russian' or choice_2.lower() == 'русский':
