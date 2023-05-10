@@ -1,0 +1,10 @@
+# раздел 9.2 Срезы, задание 13 Делаем срезы 2
+s = input()
+print(s[2])
+print(s[-2])
+print(s[:5])
+print(s[:-2])
+print(s[::2])
+print(s[1::2])
+print(s[::-1])
+print(s[::-2])
